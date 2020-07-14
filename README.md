@@ -1,4 +1,18 @@
 # Intro CSS Module Project
+- Student: Ismail AlKamal
+- TL: Leroyce Pearson
+
+Netlify Site
+https://sad-morse-151fb1.netlify.app/
+
+Inheritence and Specifity Challenge
+https://codepen.io/ialkamal/pen/mdVjWNe
+
+CSS Reset
+https://codepen.io/ialkamal/pen/zYrLwGy
+
+CSS Normalize
+https://codepen.io/ialkamal/pen/qBbyrWo
 
 ## User Interface and Git
 
