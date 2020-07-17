@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    display:inline-block;
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 2rem 4rem;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    width: 8rem;
+    height: 4rem;
+    vertical-align: middle;
+}
+
+nav a:hover{
+    animation: scale-button .2s 2 alternate;
+}
+
+@keyframes scale-button{
+    from {transform: scale(1);}
+    to {transform: scale(1.25);}
+}
+
+nav a.Plan{
+    background: #FF764E; 
+}
+
+nav a.Plan:hover{
+    background: white;
+    color: #FF764E;
+    border: 2px #FF764E solid;
+}
+
+nav a.Learn{
+    background: #5ED3EB; 
+}
+
+nav a.Learn:hover{
+    background: white;
+    color: #5ED3EB;
+    border: 2px #5ED3EB solid;
+}
+
+nav a.Involved{
+    background: #FFCD69; 
+}
+
+nav a.Involved:hover{
+    background: white;
+    color: #FFCD69;
+    border: 2px #FFCD69 solid;
+}
+
+#header-image{
+    width: 15rem;
+    border-radius: 50%;
+}
+
+#header-section{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.header-div{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.header-div .special{
+    width:50rem;
+}
+
+.header-div .special p{
+    font-size: 1.2rem;
+}
+
+.header-div .tight{
+    width: 55%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    margin: 1rem auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    line-height: 100%;
+}
+
+li{
+    text-align: left;
+    font-size: 1.4rem;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    line-height: 2;
+    width: 60%;
+    margin: 0 auto;  
+}
+
+ul {
+    margin: 5rem auto;
+}
+
+.park-plan p{
+    width:60%;
+    margin: 5rem auto;
+    line-height: 2;
+}
+
+table{
+    font-size: 1.4rem;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    margin: 0 auto;   
+}
+
+td{
+    width: 15rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#para1{
+    background-color: #DDB9A3;
+    color: white;
+    width: 80vw;
+    padding: .2rem 2rem .2rem 2rem;
+    margin: 0 auto 2rem auto;
+}
+
+form{
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background-color: #DDB9A3;
+    color: white;
+    width: 40vw;
+    padding: 2rem 2rem 2rem 2rem;
+    margin: 2rem auto 1rem auto;
+    border-radius: 2rem;
+}
+
+#name, #email, #message{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 95%;
+    text-align: left;
+}
+
+#footer-div{
+    height: 20rem;
+    overflow: hidden;
+}
+
+#footer-image{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer nav{
+    background-color: #F9E7DC;
+}
+
+.icon-section{
+    text-align: center;
+
+}
+
+.icon-section p{
+    width: 30%;
+    margin: 1rem auto 5rem auto;
+}
+
+.icon{
+    width: 8rem;
+}
+
+.strong-text{
+    font-weight: bold;
+}
+
+#park-map
+{
+    text-align: center;   
+    margin: 3rem auto;
+}
+
+#park-map img
+{
+    width: 60%;
+    border: .2rem black solid;
+    border-radius: 5rem;
+}
+
